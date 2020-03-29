@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {CartService} from "../../services/cart/cart.service";
-import {Shipping} from "../../models/shipping";
-import {Observable} from "rxjs";
+import {CartService} from '../../services/cart/cart.service';
+import {Shipping} from '../../models/shipping';
+import {Observable} from 'rxjs';
 
 @Component({
     selector: 'app-shipping',

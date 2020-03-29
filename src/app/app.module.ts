@@ -9,7 +9,7 @@ import {ProductListComponent} from './components/product-list/product-list.compo
 import {ProductAlertsComponent} from './components/product-alerts/product-alerts.component';
 import {ProductDetailsComponent} from './components/product-details/product-details.component';
 import {CartComponent} from './components/cart/cart.component';
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClientModule} from '@angular/common/http';
 import {ShippingComponent} from './components/shipping/shipping.component';
 
 @NgModule({

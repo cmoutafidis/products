@@ -10,11 +10,11 @@ import {Product, products} from '../../models/products';
 export class ProductListComponent {
     products: Product[] = products;
 
-    share() {
+    share(): void {
         window.alert('The product has been shared!');
     }
 
-    onNotify() {
+    onNotify(): void {
         window.alert('You will be notified when the product goes on sale');
     }
 }
